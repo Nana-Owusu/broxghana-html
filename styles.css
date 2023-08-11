@@ -137,15 +137,18 @@ header .navbar .menu li span{
     margin-top: 1.5em;
  }
 
+ .service img{
+    margin-bottom:1em;
+ }
+
+
  /* CORE SERVICES */
  
 main .coreServices{
     padding: 5em 8em;
 }
 
-main .coreServices .serviceTitle h2{
-    font-size: 3em;
-    font-weight: 600;
+.serviceTitle{
     color: var(--color-a);
 }
 
@@ -161,14 +164,13 @@ main .coreServices .serviceTitle h2{
     border: 1px solid var(--color-c);
  }
 
- main .card .service .container h2{
+.service h2{
     font-size: 1.25em;
     color: #001D62;
     font-weight: 600;
     margin-top: 0.7em;
  }
-
- main .card .service .container p{
+  .service  p{
    font-size: 0.875em;
    color: #001D62;
    font-weight: 400;
@@ -232,12 +234,3 @@ footer .copyRight{
     margin-top: 1em;
     font-size: 0.875em;
 }
-
-
-
-
-
-
-
-
-
