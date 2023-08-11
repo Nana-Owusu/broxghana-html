@@ -78,7 +78,7 @@ header .navbar .menu li span{
     font-weight: 500;
     background-color: white;
     padding: 0.625em 1.5em;
-    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05)
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
     cursor: pointer;
 
  }
@@ -156,11 +156,9 @@ main .coreServices .serviceTitle h2{
     height: 100%;
  }
 
- main .card .service{
+ main .service{
     padding: 1.5em;
     border: 1px solid var(--color-c);
-    width: 30%;
-    margin-top: 1.5em;
  }
 
  main .card .service .container h2{
@@ -180,9 +178,6 @@ main .coreServices .serviceTitle h2{
 
 
 /* ABOUT US */
-.aboutUS{
-    padding: 5em 8em;
-}
 
 .aboutUS .aboutContent{
     display: flex;
@@ -193,19 +188,14 @@ main .coreServices .serviceTitle h2{
 .aboutUS .aboutContent .info1{
     width: 70%;
 }
-.aboutUS .aboutContent h2{
-    font-size: 3em;
-    font-weight: 600;
+.aboutUS  h2{
     color: #001D62;
-    margin-top: 0.7em;
 }
 
-.aboutUS .aboutContent p{
-    font-size: 2em;
-    font-weight: 400;
+.aboutUS  p{
+
     color: #001D62;
-    margin-top: 1em;
-    line-height: 1.5em;
+
 }
 
 /* footer */
