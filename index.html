@@ -20,7 +20,7 @@
     <main class="">
       <div>
         <!-- HEADER SECTION -->
-        <header>
+        <header class="bg-[#001D62]">
           <section class="!hidden navbar">
             <div class="navContent1">
               <div class="logo">
@@ -58,12 +58,12 @@
                 </h2>
                 <p class="lg:text-2xl text-lg mb-4">
                   Brox is creating a strategic technology for large and small
-                  scale businesses to trive with the right solution. We’re
+                  scale businesses to trive with the right solution. We&aposre
                   building the future of technology
                 </p>
               </div>
 
-              <div class="pb-20">
+              <div class="py-20">
                 <video
                   poster="assets/e voucher 2.jpg"
                   src="assets/broxvid.mp4"
@@ -77,16 +77,25 @@
         </header>
         <!-- MAIN SECTION -->
         <!-- OUR WORKS -->
-        <section style="background-color: #f9fafb" class="pb-14">
+        <section class="bg-[#f9fafb]pb-14">
           <div class="container px-3 mx-auto pt-12">
-            <h2 class="text-2xl lg:text-4xl font-medium">Our Works</h2>
+            <h2
+              class="text-2xl lg:text-4xl font-medium text-[#001D62] font-semibold"
+            >
+              Our Works
+            </h2>
             <div>
               <div
-                class="grid grid-cols-1 md:grid-cols-2 gap-6 justify-between items-center mt-5 Card1"
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-between items-center mt-5 Card1"
               >
                 <div class="resPOS">
-                  <img src="assets/img1.png" alt="img here" />
-                  <h2 class="mt-2">Restaurant POS System</h2>
+                  <img
+                    loading="lazy"
+                    objectFit="cover"
+                    src="assets/img1.png"
+                    alt="img here"
+                  />
+                  <h2 class="mt-2 text-base">Restaurant POS System</h2>
                 </div>
 
                 <div class="resultsChecker">
@@ -95,12 +104,12 @@
                 </div>
                 <div class="sMS">
                   <img src="assets/img3.png" alt="img here" />
-                  <h2 class="mt-2">School Management System</h2>
+                  <h2 class="mt-2 text-base">School Management System</h2>
                 </div>
 
                 <div class="posSYSTEM">
                   <img src="assets/img4.png" alt="img here" />
-                  <h2 class="mt-2">Point of Sale Software(POS)</h2>
+                  <h2 class="mt-2 text-base">Point of Sale Software(POS)</h2>
                 </div>
               </div>
             </div>
@@ -108,109 +117,170 @@
         </section>
         <!-- CORE SERVICES -->
         <section class="container px-3 mx-auto pt-12 pb-8">
-          <h2 class="serviceTitle text-2xl lg:text-4xl font-medium mb-5">
+          <h2
+            class="serviceTitle text-2xl lg:text-4xl font-medium mb-5 text-[#001D62] font-semibold"
+          >
             Core Services
           </h2>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="service web">
+            <div class="service web border py-4 px-2 rounded">
               <img class="mb-3" src="assets/globe-01.svg" alt="logo" />
               <div class="container">
-                <h2>Web Development</h2>
-                <p>
-                  Own an awesome and user friendly website accross all platform
-                  to have a presence in the digital world.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Web Development
+                </h2>
+                <p class="text-[#001D62]">
+                  Brox Technology specializes in creating dynamic and responsive
+                  websites tailored to your business needs. Our skilled team of
+                  developers employs the latest technologies to craft engaging
+                  and user-friendly web solutions that effectively showcase your
+                  products, services, and brand identity.
                 </p>
               </div>
             </div>
 
-            <div class="service custom">
-              <img src="assets/browser.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="custom">
+              <img class="mb-3" src="assets/browser.svg" alt="logo" />
               <div class="container">
-                <h2>Custom Software Development</h2>
-                <p>
-                  Equip yourself with the basics of Information Technology and
-                  become expert in no time.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Custom Software Development
+                </h2>
+                <p class="text-[#001D62]">
+                  At Brox Technology, we understand that every business has
+                  unique requirements. Our custom software development services
+                  empower you to optimize your processes, enhance efficiency,
+                  and streamline operations. We work closely with you to design,
+                  develop, and implement software solutions that align perfectly
+                  with your business objectives.
                 </p>
               </div>
             </div>
 
-            <div class="service mobile">
-              <img src="assets/phone-01.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="mobile">
+              <img class="mb-3" src="assets/phone-01.svg" alt="logo" />
               <div class="container">
-                <h2>Mobile Development</h2>
-                <p>
-                  Get an industry leading mobile application for your business
-                  to boost profitability.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Mobile Development
+                </h2>
+                <p class="text-[#001D62]">
+                  Our mobile development expertise covers both iOS and Android
+                  platforms. We design and develop mobile applications that
+                  provide seamless user experiences, incorporating the latest
+                  design trends and functionalities. From concept to deployment,
+                  we ensure your app stands out in the competitive app market.
                 </p>
               </div>
             </div>
 
-            <div class="service chatbot">
-              <img src="assets/message-chat-circle.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="chatbot">
+              <img
+                class="mb-3"
+                src="assets/message-chat-circle.svg"
+                alt="logo"
+              />
               <div class="container">
-                <h2>Chatbot Solutions</h2>
-                <p>
-                  Keep your prospects informed, engaged and connected without
-                  leaving their comfort zone through whatsApp.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Chatbot Solutions
+                </h2>
+                <p class="text-[#001D62]">
+                  Transform your customer interactions with our advanced chatbot
+                  solutions. Brox Technology creates intelligent and interactive
+                  chatbots that engage users, answer inquiries, and assist in
+                  various tasks. Enhance customer support, lead generation, and
+                  user engagement through personalized and automated
+                  conversations.
                 </p>
               </div>
             </div>
 
-            <div class="service bulkSMS">
-              <img src="assets/message-text-square-01.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="bulkSMS">
+              <img
+                class="mb-3"
+                src="assets/message-text-square-01.svg"
+                alt="logo"
+              />
               <div class="container">
-                <h2>Bulk SMS</h2>
-                <p>
-                  Keep your customers and clients updated on your services and
-                  products through sms. It’s Fast and Reliable. Try Brox Bulk
-                  SMS today.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Bulk SMS
+                </h2>
+                <p class="text-[#001D62]">
+                  Stay connected with your audience through our Bulk SMS
+                  services. Brox Technology enables you to send important
+                  updates, promotions, and notifications to a wide recipient
+                  base instantly. Our reliable and scalable platform ensures
+                  your messages reach the right people at the right time.
                 </p>
               </div>
             </div>
 
-            <div class="service design">
-              <img src="assets/clapperboard.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="design">
+              <img class="mb-3" src="assets/clapperboard.svg" alt="logo" />
               <div class="container">
-                <h2>UI/UX Design</h2>
-                <p>
-                  Keep your customers and clients updated on your services and
-                  products through sms. It’s Fast and Reliable. Try Brox Bulk
-                  SMS today.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  UI/UX Design
+                </h2>
+                <p class="text-[#001D62]">
+                  Exceptional user interface (UI) and user experience (UX)
+                  design are crucial for engaging and retaining customers. Brox
+                  Technology&apos;s design team crafts visually appealing,
+                  intuitive, and user-centric interfaces that enhance usability
+                  and create memorable interactions, ultimately boosting
+                  customer satisfaction.
                 </p>
               </div>
             </div>
 
-            <div class="service brand">
-              <img src="assets/chart-breakout-circle.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="brand">
+              <img
+                class="mb-3"
+                src="assets/chart-breakout-circle.svg"
+                alt="logo"
+              />
               <div class="container">
-                <h2>Branding</h2>
-                <p>
-                  Own an awesome and user friendly website accross all platform
-                  to have a presence in the digital world.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Branding
+                </h2>
+                <p class="text-[#001D62]">
+                  Establish a strong and memorable brand identity with Brox
+                  Technology&apos;s branding services. We collaborate with you
+                  to develop a unique brand strategy, including logo design,
+                  color palettes, typography, and brand guidelines. Let us help
+                  you create a consistent and impactful brand presence across
+                  all touchpoints.
                 </p>
               </div>
             </div>
 
-            <div class="service ussd">
-              <img src="assets/phone-02.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="ussd">
+              <img class="mb-3" src="assets/phone-02.svg" alt="logo" />
               <div class="container">
-                <h2>USSD (Short Code) Solutions</h2>
-                <p>
-                  Let your customers place orders for your products using a USSD
-                  code and make payment via Mobile Money directly from the USSD.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  USSD (Short Code) Solutions
+                </h2>
+                <p class="text-[#001D62]">
+                  Unstructured Supplementary Service Data (USSD) is a powerful
+                  tool for interactive communication. Brox Technology offers
+                  USSD solutions that enable real-time interactions between
+                  users and your services, such as balance inquiries, service
+                  activations, and surveys, fostering direct engagement without
+                  the need for internet connectivity.
                 </p>
               </div>
             </div>
 
-            <div class="service momo">
-              <img src="assets/credit-card-01.svg" alt="logo" />
+            <div class="border py-4 px-2 rounded" id="momo">
+              <img class="mb-3" src="assets/credit-card-01.svg" alt="logo" />
               <div class="container">
-                <h2>Mobile Money Integration</h2>
-                <p>
-                  Collect payment officially using mobile money and reach wide
-                  audience. We help you to integrate MoMo into your service
-                  offerings.
+                <h2 class="mb-3 text-[#001D62] font-semibold text-lg">
+                  Mobile Money Integration
+                </h2>
+                <p class="text-[#001D62]">
+                  Seamlessly integrate mobile money payment options into your
+                  applications with Brox Technology&apos;s expertise. We enable
+                  secure and convenient transactions, allowing your users to
+                  make payments, transfer funds, and perform financial
+                  activities through popular mobile money platforms.
                 </p>
               </div>
             </div>
@@ -223,8 +293,12 @@
           <div class="container px-3 mx-auto pt-12">
             <div class="flex flex-col lg:flex-row items-center gap-4">
               <div class="info1 flex-auto w-100 lg:w-28">
-                <h2 class="text-2xl lg:text-4xl font-medium mb-6">About Us</h2>
-                <p class="lg:text-2xl text-lg">
+                <h2
+                  class="text-2xl lg:text-4xl font-medium mb-6 text-[#001D62]"
+                >
+                  About Us
+                </h2>
+                <p class="lg:text-2xl text-lg text-[#001D62]">
                   Our core values include a dedication to innovation and
                   excellence, as we continuously strive to push the boundaries
                   of technology to deliver the best solutions for our customers.
@@ -248,26 +322,37 @@
         <footer class="bg-black">
           <section class="contactUs pb-14">
             <div class="container px-3 mx-auto pt-12">
-              <div class="conContainer flex items-center justify-between">
+              <div
+                class="flex flex-col lg:flex-row gap-5 pb-8 mb-8 items-start lg:items-center justify-between border-b border-[#c5c5c5]"
+                id="conContainer"
+              >
                 <div class="con Info">
-                  <h2 class="text-white">GET IN TOUCH</h2>
-                  <p>
+                  <h2
+                    class="text-white text-xl lg:text-2xl xl:text-3xl font-medium"
+                  >
+                    GET IN TOUCH
+                  </h2>
+                  <p class="pt-1 text-base text-[#c5c5c5]">
                     info@broxghana.com <br />
                     +233 54 410 8998
                   </p>
                 </div>
 
                 <div class="con Info">
-                  <h2 class="text-white">Brox Technologies</h2>
-                  <p>
+                  <h2
+                    class="text-white text-xl lg:text-2xl xl:text-3xl font-medium"
+                  >
+                    Brox Technologies
+                  </h2>
+                  <p class="pt-1 text-base text-[#c5c5c5]">
                     We focus on Customer Commitment, Integrity, and Team work.
                   </p>
                 </div>
               </div>
 
               <div class="copyRight">
-                <h2 class="text-white">
-                  © 2022 Brox Technology. All Rights Reserved
+                <h2 class="text-white text-xs">
+                  © 2023 Brox Technology. All Rights Reserved
                 </h2>
               </div>
             </div>
