@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USSD Registration Platform</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <section class="grid grid-rows-1 lg:mx-auto lg:grid-cols-2 lg:max-w-4xl mt-16" >
+
+        <div id="image" class=" gap-6">
+            <img src="assets/resImage2.png" alt="image">
+        </div>
+
+
+        <div id="form-container" class="bg-[#3FADE3] col-span-2 lg:col-span-1 px-6 pt-6">
+            <div class="">
+                <h2 class="text-2xl font-bold md:text-4xl mb-6">Welcome to Brox<br>Technology USSD<br> Registration Platform</h2>
+                <p class="md:text-lg text-sm ">You can reach us anytime via <span class="text-[#3566C5] font-bold">info@broxghana.com<br>or 0544108998</span></p>
+            </div>
+
+            <div class="my-12">
+                <form action="" method="get">
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="name">Name</label>
+                        <input class="rounded-md px-3 py-2 mb-6" type="text" name="name" id="name" placeholder="Full Name" required>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="bizYN">Do you own a Business</label>
+                        <span class="font-bold text-xs md:text-lg"><input class="mb-2" type="radio" name="bizYN" id="bizYN" required>&nbsp;Yes</span>
+                        <span class="font-bold text-xs md:text-lg"><input class="mb-6" type="radio" name="bizYN" id="bizYN" required>&nbsp;No</span>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="businessName">Business Name</label>
+                        <input class="rounded-md px-3 py-2 mb-6" type="text" name="businessName" id="businessName" placeholder="Name of Business" required>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="businessDescription">Business Description</label>
+                        <input class="rounded-md px-3 py-2 mb-6" type="text" name="businessDescription" id="businessDescription" placeholder="Business Description" required>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="businessType">Business Type</label>
+                        <select class="rounded-md px-3 py-2 mb-6" name="businessType" id="businessType" required>
+                            <option value="">Select type of business</option>
+                            <option value="">Select type of business</option>
+                            <option value="">Select type of business</option>
+                            <option value="">Select type of business</option>
+                            <option value="">Select type of business</option>
+                            <option value="">Select type of business</option>
+                        </select>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="phoneNumber">Phone Number</label>
+                        <input class="rounded-md px-3 py-2 mb-6" type="tel" name="phoneNumber"  maxlength="10" id="phoneNumber" placeholder="024-XXX-XXXX" required>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="eMail">E-mail</label>
+                        <input class="rounded-md px-3 py-2 mb-6" type="email" name="eMail" id="eMail" placeholder="johndoe@gmail.com" required>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class="md:text-lg text-xs font-bold" for="name">Using the Prefix *701#. What's your preferred customised shortcode</label>
+                        <input class="rounded-md px-3 py-2 mb-6" type="text" name="name" id="name" placeholder="*701*x# or *701*xx# or *701*xxx#" required>
+                    </div>
+
+                    <div class="grid gap-2">
+                        <label class=" text-xs md:text-lg font-bold" for="comments">Any Additional Information or Comments?</label>
+                        <textarea class="rounded-md px-3 py-2 mb-6" type="text" name="comments" id="comments" placeholder="Kindly enter comment here..." required></textarea>
+                    </div>
+
+                    <button type="reset" class="bg-[#3566C5] rounded px-6 py-3 text-white font-bold text-xs" >Reset</button>
+                    <button type="submit" class="bg-[#3566C5] rounded px-6 py-3 text-white font-bold text-xs ml-4" >Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+   
+
+        <footer class="bg-black">
+          <section class="contactUs pb-14">
+            <div class="container px-3 mx-auto pt-12">
+              <div
+                class="flex flex-col lg:flex-row gap-5 pb-8 mb-8 items-start lg:items-center justify-between border-b border-[#c5c5c5]"
+                id="conContainer"
+              >
+                <div>
+                  <h2
+                    class="text-white text-xl lg:text-2xl xl:text-3xl font-medium"
+                  >
+                    GET IN TOUCH
+                  </h2>
+                  <p class="pt-1 text-base text-[#c5c5c5]">
+                    info@broxghana.com <br />
+                    +233 54 410 8998
+                  </p>
+                </div>
+
+                <div>
+                  <h2
+                    class="text-white text-xl lg:text-2xl xl:text-3xl font-medium"
+                  >
+                    Brox Technologies
+                  </h2>
+                  <p class="pt-1 text-base text-[#c5c5c5]">
+                    We focus on Customer Commitment, Integrity, and Team work.
+                  </p>
+                </div>
+              </div>
+
+              <div>
+                <h2 class="text-white text-xs">
+                  © 2023 Brox Technology. All Rights Reserved
+                </h2>
+              </div>
+            </div>
+          </section>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
